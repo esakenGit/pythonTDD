@@ -1,1 +1,7 @@
 . MoneyTest.py::test_multiplication
+F MoneyTest.py::test_equality
+ def test_equality():
+ >       assert_that(Dolloar(5).equals( Dolloar(5) ) ).is_true
+ E       NameError: name 'assert_that' is not defined
+ 
+ MoneyTest.py:18: NameError
