@@ -1,0 +1,1 @@
+. MoneyTest.py::test_multiplication
