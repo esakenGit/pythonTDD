@@ -1,7 +1,2 @@
 . MoneyTest.py::test_multiplication
-F MoneyTest.py::test_equality
- def test_equality():
- >       assert_that(Dollar(5).equals( Dollar(5) ) ).is_true
- E       AttributeError: 'Dollar' object has no attribute 'equals'
- 
- MoneyTest.py:19: AttributeError
+. MoneyTest.py::test_equality

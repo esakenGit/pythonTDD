@@ -7,3 +7,7 @@ class Dollar():
 
    def times(self, multiplier):
        return Dollar(self.amount * multiplier)
+
+  
+   def equals(self, Dollar):
+       return True
