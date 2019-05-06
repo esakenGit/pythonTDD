@@ -16,4 +16,4 @@ def test_multiplication():
 
 
 def test_equality():
-    assert_that(Dolloar(5).equals( Dolloar(5) ) ).is_true
+    assert_that(Dollar(5).equals( Dollar(5) ) ).is_true
