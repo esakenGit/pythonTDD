@@ -1,11 +1,8 @@
 F MoneyTest.py::test_multiplication
  def test_multiplication():
          five = Dollar(5)
-         five.times(2)
-         assert 10 == five.amount
-         five.times(3)
- >       assert 15 == five.amount
- E       assert 15 == 30
- E        +  where 30 = <dollar.Dollar object at 0x105065198>.amount
+         product =  five.times(2)
+ >       assert 10 == product.amount
+ E       AttributeError: 'NoneType' object has no attribute 'amount'
  
- MoneyTest.py:13: AssertionError
+ MoneyTest.py:11: AttributeError

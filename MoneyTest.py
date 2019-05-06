@@ -7,7 +7,7 @@ from dollar import Dollar
 #Test
 def test_multiplication():
     five = Dollar(5)
-    five.times(2)
-    assert 10 == five.amount
-    five.times(3)
-    assert 15 == five.amount
+    product =  five.times(2)
+    assert 10 == product.amount
+    product = five.times(3)
+    assert 15 == product.amount
