@@ -11,3 +11,8 @@ def test_multiplication():
     assert 10 == product.amount
     product = five.times(3)
     assert 15 == product.amount
+
+
+
+def test_equality():
+    assert_that(Dolloar(5).equals( Dolloar(5) ) ).is_true
