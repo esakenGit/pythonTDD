@@ -1,11 +1,2 @@
-F MoneyTest.py::test_multiplication
- def test_multiplication():
-         five = Dollar(5)
-         product =  five.times(2)
- >       assert Dollar(10) == product.amount
- E       assert <dollar.Dollar object at 0x110e8b390> == 10
- E        +  where <dollar.Dollar object at 0x110e8b390> = Dollar(10)
- E        +  and   10 = <dollar.Dollar object at 0x110e8b208>.amount
- 
- MoneyTest.py:12: AssertionError
+. MoneyTest.py::test_multiplication
 . MoneyTest.py::test_equality

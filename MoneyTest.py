@@ -9,9 +9,9 @@ from dollar import Dollar
 def test_multiplication():
     five = Dollar(5)
     product =  five.times(2)
-    assert Dollar(10) == product.amount
+    assert Dollar(10).amount == product.amount
     product = five.times(3)
-    assert Dollar(15) == product.amount
+    assert Dollar(15).amount == product.amount
 
 
 
