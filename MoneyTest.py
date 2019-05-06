@@ -1,4 +1,5 @@
 import pytest
+from assertpy import assert_that
 
 
 from dollar import Dollar
