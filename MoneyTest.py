@@ -2,4 +2,6 @@ import pytest
 
 #Test
 def test_multiplication():
-    pass
+    five = Dollar(5)
+    five.times(2)
+    assert 10 == five.amount

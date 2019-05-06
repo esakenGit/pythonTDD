@@ -1,1 +1,6 @@
-. MoneyTest.py::test_multiplication
+F MoneyTest.py::test_multiplication
+ def test_multiplication():
+ >       five = Dollar(5)
+ E       NameError: name 'Dollar' is not defined
+ 
+ MoneyTest.py:5: NameError
