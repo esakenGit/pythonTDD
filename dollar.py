@@ -10,4 +10,4 @@ class Dollar():
 
   
    def equals(self, Dollar):
-       return True
+       return self.amount == Dollar.amount
