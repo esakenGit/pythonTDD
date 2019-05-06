@@ -1,6 +1,7 @@
 F MoneyTest.py::test_multiplication
  def test_multiplication():
- >       five = Dollar(5)
- E       NameError: name 'Dollar' is not defined
+         five = Dollar(5)
+ >       five.times(2)
+ E       AttributeError: 'Dollar' object has no attribute 'times'
  
- MoneyTest.py:5: NameError
+ MoneyTest.py:10: AttributeError
