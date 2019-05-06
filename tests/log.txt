@@ -1,7 +1,8 @@
 F MoneyTest.py::test_multiplication
  def test_multiplication():
          five = Dollar(5)
- >       five.times(2)
- E       AttributeError: 'Dollar' object has no attribute 'times'
+         five.times(2)
+ >       assert 10 == five.amount
+ E       AttributeError: 'Dollar' object has no attribute 'amount'
  
- MoneyTest.py:10: AttributeError
+ MoneyTest.py:11: AttributeError
