@@ -6,4 +6,4 @@ jobs:
     docker:
       - image: circleci/python:3.6
     steps:
-      - run: echo 'hello world'
+      - run: python test_calculations.py
